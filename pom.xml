@@ -45,7 +45,7 @@
 
     <issueManagement>
         <system>github issue</system>
-        <url>https://github.com/subchen/jetbrick/issues</url>
+        <url>https://github.com/subchen/jetbrick-parent/issues</url>
     </issueManagement>
 
     <repositories>
@@ -87,7 +87,7 @@
         <maven.javadoc.failOnError>false</maven.javadoc.failOnError>
 
         <!-- version of dependency -->
-        <jetbrick.commons.version>2.0</jetbrick.commons.version>
+        <jetbrick.commons.version>2.1.15</jetbrick.commons.version>
 
         <servlet.version>3.0.1</servlet.version>
         <slf4j.version>1.7.7</slf4j.version>
