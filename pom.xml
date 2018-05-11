@@ -38,9 +38,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git@github.com:subchen/jetbrick.git</connection>
-        <developerConnection>scm:git:git@github.com:subchen/jetbrick.git</developerConnection>
-        <url>git@github.com:subchen/jetbrick.git</url>
+        <connection>scm:git:git@github.com:subchen/jetbrick-parent.git</connection>
+        <developerConnection>scm:git:git@github.com:subchen/jetbrick-parent.git</developerConnection>
+        <url>git@github.com:subchen/jetbrick-parent.git</url>
     </scm>
 
     <issueManagement>
@@ -199,7 +199,7 @@
                         </configuration>
                         <dependencies>
                             <dependency>
-                                <groupId>${project.groupId}</groupId>
+                                <groupId>com.github.subchen</groupId>
                                 <artifactId>jetbrick-eclipse-formatter</artifactId>
                                 <version>1.0</version>
                              </dependency>
