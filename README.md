@@ -7,7 +7,7 @@ This is a parent pom for jetbrick projects.
 <parent>
     <groupId>com.github.subchen</groupId>
     <artifactId>jetbrick-parent</artifactId>
-    <version>2.4</version>
+    <version>2.5</version>
 </parent>
 ```
 
