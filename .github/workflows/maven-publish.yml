@@ -19,6 +19,6 @@ jobs:
           server-username: ${{ secrets.MAVEN_DEPLOY_USERNAME }}
           server-password: ${{ secrets.MAVEN_DEPLOY_PASSWORD }}
           gpg-private-key: ${{ secrets.GPG_PRIVATE_KEY }}
-          gpg-passphrase:  ${{ secrets.GPG_PASSWORD }}
+          gpg-passphrase:  ${{ secrets.GPG_PASSPHRASE }}
       - run: env
       - run: mvn clean deploy -P oss -DautoReleaseAfterClose=true
